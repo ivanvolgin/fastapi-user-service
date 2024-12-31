@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from .schemes import *
+from app.src.reviews.schemes import *
 from fastapi import Form, \
     Request, \
     HTTPException
