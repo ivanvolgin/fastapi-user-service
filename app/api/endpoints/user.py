@@ -1,9 +1,24 @@
-from fastapi import APIRouter
+from typing import Annotated
+from fastapi import APIRouter, Depends
+from sqlalchemy.ext.asyncio import AsyncConnection
+from app.db.database import get_connection
 from app.src.user.schemes import *
+from app.src.user.service import *
 
-router = APIRouter(prefix="/user", tags=["User"])
+router = APIRouter()
 
 
 @router.post("/")
-def is_user_adult(user: User):
-    return {"name": user.name, "age": user.age, "is_adult": user.age >= 18}
+async def create_user(
+    conn: Annotated[AsyncConnection, Depends(get_connection)],
+    user: UserCreate,
+) -> dict:
+    await create_user_in_db(conn, user)
+    return {"message": "User created", "user": user}
+
+
+@router.get("/show")
+async def show_users(
+    conn: Annotated[AsyncConnection, Depends(get_connection)],
+):
+    return await show_users_in_db(conn)

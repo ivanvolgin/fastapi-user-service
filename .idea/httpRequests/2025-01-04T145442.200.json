@@ -1,0 +1,8 @@
+{
+  "message": "User created",
+  "user": {
+    "name": "Ivan",
+    "age": 21,
+    "email": "kaolonikekms@gmail.com"
+  }
+}

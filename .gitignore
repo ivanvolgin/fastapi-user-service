@@ -171,5 +171,4 @@ cython_debug/
 .pypirc
 
 pyapp.sock
-reviews.html
 reviews.txt

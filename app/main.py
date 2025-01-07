@@ -1,15 +1,17 @@
 from fastapi import FastAPI
-from fastapi.responses import FileResponse
-from app.user import router as user_router
-from app.catalog import router as catalog_router
-
-app = FastAPI()
-
-
-@app.get("/",tags=['Index HTML'])
-def index():
-    return FileResponse(r"/home/ramb1zzy/pyapp/templates/index.html")
+from app.api.endpoints import api_v1 as router
+from app.core.config import settings
+from contextlib import asynccontextmanager
+from app.db.database import init_db
 
 
-app.include_router(router=user_router)
-app.include_router(router=catalog_router)
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    await init_db()
+    yield
+
+
+app = FastAPI(lifespan=lifespan)
+
+
+app.include_router(router=router)

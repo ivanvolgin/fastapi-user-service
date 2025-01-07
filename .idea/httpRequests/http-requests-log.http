@@ -1,0 +1,454 @@
+GET http://192.168.1.9:80/api/v1/user/show
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T151851.200.json
+
+###
+
+GET http://192.168.1.9:80/api/v1/user/show
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T151735.200.json
+
+###
+
+GET http://192.168.1.9:80/api/v1/user/show
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T150851.500.txt
+
+###
+
+GET http://192.168.1.9:80/api/v1/user/show
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T150847.500.txt
+
+###
+
+GET http://192.168.1.9:80/api/v1/user/show
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T150635.500.txt
+
+###
+
+GET http://192.168.1.9:80/api/v1/user/show
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T150423.500.txt
+
+###
+
+GET http://192.168.1.9:80/api/v1/user/show
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T150325-1.500.txt
+
+###
+
+GET http://192.168.1.9:80/api/v1/user/show
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T150244.500.txt
+
+###
+
+GET http://192.168.1.9:80/api/v1/user/show
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T150106.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 70
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Ivan",
+  "age": 21,
+  "email": "kaolonikekms@gmail.com"
+}
+
+<> 2025-01-04T145442.200.json
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 70
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Ivan",
+  "age": 21,
+  "email": "kaolonikekms@gmail.com"
+}
+
+<> 2025-01-04T145246.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 70
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Ivan",
+  "age": 21,
+  "email": "kaolonikekms@gmail.com"
+}
+
+<> 2025-01-04T145023.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 70
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Ivan",
+  "age": 21,
+  "email": "kaolonikekms@gmail.com"
+}
+
+<> 2025-01-04T144346.500.txt
+
+###
+
+GET http://192.168.1.9:80/api/v1/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T140343.200.html
+
+###
+
+GET http://192.168.1.9:80/api/v1/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T140121.200.html
+
+###
+
+GET http://192.168.1.9:80/api/v1/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T135842.200.html
+
+###
+
+GET http://192.168.1.9:80/api/v1/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T135748.200.html
+
+###
+
+GET http://192.168.1.9:80/api/v1/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T134345.200.html
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": 21, "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T134149.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": 21, "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T134034.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": 21, "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T133027.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": 21, "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T114455.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": 21, "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T114447.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": 21, "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T114114.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": 21, "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T114037.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": 21, "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T113931.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": 21, "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T110609.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": 21, "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T104828.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": 21, "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T104618.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": 21, "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T103926.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": 21, "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T103902.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": 21, "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T102752.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": "21", "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T102705.500.txt
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": "21", "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T102631.502.html
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{"name": "Ivan","age": "21", "email": "kaolonikekms@gmail.com"}
+
+<> 2025-01-04T102411.200.json
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+'Data': {"name": "Ivan", "age": 21, "email": "kaolonikekms@gmail.com"}
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T101924.422.json
+
+###
+
+POST http://192.168.1.9:80/api/v1/user/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-04T101220.422.json
+
+###
+
+GET http://192.168.1.9:80/api/v1/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-02T234231.200.html
+
+###
+

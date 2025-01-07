@@ -12,7 +12,7 @@ fastapi = {extras = ["all"], version = "0.115.6"}
 poetry = "*"
 gunicorn = "*"
 aiofiles = "*"
-sqlalchemy = {extras = ["asyncio"], version = "^2.0.36"}
+sqlalchemy = {extras = ["asyncio", "aiosqlite"], version = "^2.0.36"}
 
 
 

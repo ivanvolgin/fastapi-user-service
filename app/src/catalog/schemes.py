@@ -1,7 +1,16 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
-class Product(BaseModel):
-    product_id: int
-    name: str
-    category: str
+
+class ProductBase(BaseModel):
+    title: str
+    description: str
     price: float
+
+
+class ProductCreate(ProductBase):
+    pass
+
+
+class Product(ProductBase):
+    model_config = ConfigDict(from_attributes=True)
+    id: int
