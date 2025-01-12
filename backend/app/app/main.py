@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from app.api.endpoints import api_v1 as router
-from app.core.config import settings
 from contextlib import asynccontextmanager
 from app.db.database import init_db
 

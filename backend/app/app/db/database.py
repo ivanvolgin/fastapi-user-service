@@ -20,10 +20,8 @@ async_session = async_sessionmaker(
 
 
 async def init_db() -> None:
-    print("Инициализация базы данных...")
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
-    print("База данных инициализирована.")
 
 
 async def get_connection() -> AsyncConnection:

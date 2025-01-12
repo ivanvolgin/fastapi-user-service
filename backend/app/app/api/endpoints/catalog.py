@@ -1,6 +1,4 @@
-from fastapi import APIRouter, Path, Query, HTTPException, status
-from app.src.catalog.schemes import *
-from typing import Annotated
+from fastapi import APIRouter
 
 router = APIRouter()
 

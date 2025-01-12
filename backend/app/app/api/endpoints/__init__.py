@@ -1,7 +1,5 @@
 from fastapi import APIRouter
 from fastapi.responses import FileResponse
-from app.api.endpoints.catalog import router as catalog_router
-from app.api.endpoints.reviews import router as reviews_router
 from app.api.endpoints.user import router as user_router
 
 api_v1 = APIRouter(prefix="/api/v1")
@@ -9,7 +7,9 @@ api_v1 = APIRouter(prefix="/api/v1")
 
 @api_v1.get("/")
 def index():
-    return FileResponse(r"/home/ramb1zzy/pyapp/templates/index.html")
+    return FileResponse(
+        r"/Users/ivanvolgin/pyprojects/pyapp_FastAPI/backend/app/templates/index.html"
+    )
 
 
 #

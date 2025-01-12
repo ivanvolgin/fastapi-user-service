@@ -1,8 +1,5 @@
 from fastapi import APIRouter
-from app.src.reviews.schemes import *
-from fastapi import Form, Request, HTTPException
 from fastapi.responses import FileResponse
-import aiofiles
 
 router = APIRouter()
 

@@ -5,6 +5,8 @@ from pathlib import Path
 
 
 class Settings(BaseSettings):
+    VIRTUAL_HOST: str
+    DEFAULT_HOST: str
     PROJECT_NAME: str
     DATABASE_USER: str
     DATABASE_PASSWORD: str

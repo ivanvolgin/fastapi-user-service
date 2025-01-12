@@ -2,8 +2,8 @@ from typing import Annotated
 from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncConnection
 from app.db.database import get_connection
-from app.src.user.schemes import *
-from app.src.user.service import *
+from app.src.user.schemes import UserCreate
+from app.src.user.service import create_user_in_db, show_users_in_db
 
 router = APIRouter()
 

@@ -1,11 +1,9 @@
-import asyncio
 from sqlalchemy.ext.asyncio import AsyncConnection
-from sqlalchemy import text, Result
-from app.db.database import engine, get_connection, init_db
+from sqlalchemy import text
 from app.src.user.schemes import UserCreate
 
 
-async def create_user_in_db(conn: AsyncConnection, user: UserCreate) -> dict:
+async def create_user_in_db(conn: AsyncConnection, user: UserCreate):
     result = await conn.execute(
         text(
             f"""
