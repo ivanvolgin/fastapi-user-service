@@ -1,0 +1,34 @@
+services:
+  pyapp_fastapi:
+    build: ./backend
+    container_name: pyapp_fastapi
+    env_file:
+      - ./backend/app/.env
+    ports:
+      - "8000:8000"
+    restart: always
+    volumes:
+      - "${DATABASE_VOLUME}:/app/app/db"
+    networks:
+      - webnet
+
+  nginx-proxy:
+    image: nginxproxy/nginx-proxy:1.6
+    container_name: nginx-proxy
+    restart: always
+    env_file:
+      - ./backend/app/.env
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    networks:
+      - webnet
+    depends_on:
+      - pyapp_fastapi
+    labels:
+      - "com.nginx.virtual_host=${VIRTUAL_HOST}"
+
+networks:
+  webnet:
+    driver: bridge
