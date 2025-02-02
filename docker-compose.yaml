@@ -1,0 +1,49 @@
+services:
+  user_service:
+    build: .
+    container_name: user_service
+    env_file:
+      - user_service/.env
+    ports:
+      - "8000:8000"
+    restart: always
+    networks:
+      - webnet
+
+  nginx-proxy:
+    image: nginxproxy/nginx-proxy:1.7
+    container_name: nginx-proxy
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    networks:
+      - webnet
+    labels:
+      - "com.nginx.virtual_host=${VIRTUAL_HOST}"
+
+  user_db:
+    image: postgres:17
+    container_name: user_db
+    restart: always
+    env_file:
+      - user_service/.env
+    environment:
+      - POSTGRES_USER=${DATABASE_USER}
+      - POSTGRES_PASSWORD=${DATABASE_PASSWORD}
+      - POSTGRES_DB=${DATABASE_NAME}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - webnet
+
+
+networks:
+  webnet:
+    driver: bridge
+
+volumes:
+  postgres_data:
