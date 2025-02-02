@@ -11,5 +11,5 @@ env.bak/
 venv.bak/
 # mypy
 .mypy_cache/
-.DS_Store/
+.DS_Store
 __pycache__/
